@@ -1,6 +1,9 @@
 package com.pk.audio
 
+import java.io.File
+
 
 fun main(args : Array<String>) {
-    println("Hello, World!")
+    if (args.size != 1) return
+    Sound(File(args[0])).play()
 }
