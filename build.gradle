@@ -23,6 +23,7 @@ repositories {
 }
 
 dependencies {
+    implementation "com.googlecode.soundlibs:jlayer:1.0.1.4"
     implementation "org.slf4j:slf4j-api:1.8.0-beta2"
     implementation "org.slf4j:slf4j-simple:1.8.0-beta2"
     implementation "com.squareup.okhttp3:okhttp:3.11.0"

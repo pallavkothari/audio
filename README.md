@@ -9,5 +9,5 @@ make
 
 ### run
 ```
-build/install/audio/bin/audio ~/github/sounds/audio/src/main/resources/chime.wav 
+build/install/audio/bin/audio src/main/resources/chime.wav 
 ```
